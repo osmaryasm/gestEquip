@@ -1,0 +1,14 @@
+nav bar
+
+background: -webkit-linear-gradient(0deg, rgb(0, 23, 30), rgb(0, 82, 109));
+background: linear-gradient(0deg, rgb(0, 23, 30), rgb(0, 82, 109));
+
+active nav y btn primary
+
+background: -webkit-linear-gradient(0deg, rgb(0, 23, 30), rgb(0, 192, 230));
+background: linear-gradient(0deg, rgb(0, 23, 30), rgb(0, 192, 230));
+
+btn danger
+
+background: -webkit-linear-gradient(1deg, rgb(0, 0, 0), rgb(246, 21, 21));
+background: linear-gradient(1deg, rgb(0, 0, 0), rgb(246, 21, 21));

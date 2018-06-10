@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $("#login").click(function(){
+        $("#principal").load("login.html");
+    });
+     $("#modSis").click(function(){
+        $("#principal").load("modSis.html");
+    });
+     $(".contact").click(function(){
+        $("#principal").load("contact.html");
+    });
+     $("#verCatProd").click(function(){
+        $("#principal").load("consEquip.html");
+    });
+    $(".aboutKoach").click(function(){
+       $("#principal").load("aboutKoach.html");
+    });
+    $("#regClient").click(function(){
+       $("#principal").load("cliente.html");
+    });
+    $("#regUsuario").click(function(){
+       $("#principal").load("regUsuario.html");
+    });
+})

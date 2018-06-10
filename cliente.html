@@ -1,0 +1,67 @@
+<div class="container">
+<br>
+<h1>Registro de Cliente</h1>
+<br>
+
+<form>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationServer01">Nombre</label>
+      <input type="text" class="form-control" id="validationServer01" placeholder="Nombre" required>
+
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServer02">Apellido</label>
+      <input type="text" class="form-control" id="validationServer02" placeholder="Apellido" required>
+
+    </div>
+    <div class="col-md-2 mb-3">
+      <label for="validationServer03">Cédula</label>
+      <input type="text" class="form-control"  placeholder="Cédula" required>
+
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServerUsername">Correo</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+        </div>
+        <input type="text" class="form-control"  placeholder="Correo" aria-describedby="inputGroupPrepend3" required>
+
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServer04">Teléfono</label>
+      <input type="text" class="form-control"  placeholder="Teléfono" required>
+
+    </div>
+    <div class="col-md-10 mb-3">
+      <label for="validationServer05">Dirección</label>
+      <input type="text" class="form-control"  placeholder="Dirección" required>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="catEq">Categoría</label>
+    <select class="form-control" id="catEq">
+      <option selected>Seleccione...</option>
+       <option value="1">Monitor</option>
+       <option value="2">CPU</option>
+       <option value="3">Móvil</option>
+    </select>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="fallaEq">Falla del Equipo</label>
+      <textarea class="form-control" id="fallaEq" rows="5"></textarea>
+    </div>
+  </div>
+
+  <button class="btn btn-primary" type="submit">Guardar</button>
+</form>
+
+
+</div>
